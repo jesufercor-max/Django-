@@ -1,0 +1,22 @@
+# Ignorar todo por defecto
+*
+
+# Excepto tus proyectos Django
+!/django-protectora/
+!/django-videojuegos/
+
+# Archivos de Python/Django
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Entornos virtuales
+venv/
+env/
