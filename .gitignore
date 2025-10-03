@@ -1,72 +1,22 @@
-# =========================
-# Ignorar todo excepto tus proyectos Django
-# =========================
+# Ignorar todo por defecto
 *
+
+# Excepto tus proyectos Django
 !/django-protectora/
 !/django-videojuegos/
 
-# =========================
-# Archivos y carpetas de sistema
-# =========================
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
-
-# MacOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Linux
-*~
-.nfs*
-
-# =========================
-# Archivos y carpetas de Python/Django
-# =========================
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Distribution / packaging
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Django stuff:
-*.log
-*.pot
+# Archivos de Python/Django
 *.pyc
-*.sqlite3
+__pycache__/
 db.sqlite3
 media/
 staticfiles/
-.env
-*.env
+*.log
 
-# PyCharm / VSCode / IDEs
-.idea/
+# IDEs
 .vscode/
-*.sublime-workspace
-*.sublime-project
+.idea/
 
-# Virtual environments
+# Entornos virtuales
 venv/
 env/
-ENV/
-.env/
